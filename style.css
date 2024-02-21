@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f0f0f0;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+button {
+    transition: background 0.5s;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: #854dff;
+    background-image: url("assets/images/icon-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+    margin-top: 50px;
+    margin-left: calc(50% - 25px);
+}
+
+hr {
+    width: 270px;
+    margin-left: calc(50% - 135px);
+    background-color: #dbdbdb; 
+    height: 1px; 
+    border: 0; 
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+p {
+    color: #854dff;
+}
+
+
+
+input, label {
+    display:block;
+}
+
+.inputDesign {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+label {
+    font-family: 'Poppins';
+    letter-spacing: 5px;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #707070;
+}
+
+#mainDiv {
+    background-color: white;
+    height: 500px;
+    margin: 20px;
+    margin-top: 100px;
+    border-radius: 20px 20px 90px 20px;
+}
+
+
+input {
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border-width: 0.5px;
+    font-size: 20px;
+}
